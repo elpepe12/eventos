@@ -8,27 +8,27 @@
     <link rel="stylesheet" href="scss/inicio.css">
 </head>
 <body>
-    <section class="caja1">
-            <div class="menu">
-                    <li class="submenu">
-                        <a href="inicio.html" id="home">Home</a>
-                        
-                    </li>
-                    <li class="submenu">
-                        <a href="eventos.html" id="eventos">Eventos
-                            <li><a href="categoriarock.html">Rock</a>
-                            <li><a href="categoriarock.html">Salsa</a></li>
-                        </a>
-                        
-                    </li>
-
-                    <li class="submenu">
-                        <a href="noticias.html" id="noticias">Noticias</a>
-                        
-                    </li>
+   
+                    <nav role="navegacion" class="contenedor-menu">
+                        <ul class="menu">
+                            <li class="submenu">
+                                <a href="inicio.html" class="nav-inicio" id="inicio"><span>Home</span></a>
+                            </li> 
+                            <li class="submenu">
+                                <a href="eventos.html" class="nav-eventos" id="eventos"><span>Eventos</span></a>
+                                <nav class="despegable">
+                                    <ul class="despegable-item">
+                                        <li class="rock"><a href="categoriarock.html" class="despegable-sub">Rock</a></li>
+                                        <li id="salsa"><a href="categoriasalsa.html" class="despegable-sub">Salsa</a></li>
+                                   </ul>
+                                </nav>
+                            </li> 
+                            <li>
+                                <a href="">Noticias</a>
+                            </li>
+                        </ul>
+                    </nav>
                     
-            </div>
-    </section>
 
 </body>
 </html>

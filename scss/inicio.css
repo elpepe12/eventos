@@ -1,8 +1,17 @@
 .contenedor-menu {
+  box-sizing: border-box;
   border: solid;
   float: left;
   width: 100%;
   text-decoration: none;
   list-style: decoration; }
+  .contenedor-menu .submenu {
+    width: 100%;
+    float: left; }
+    .contenedor-menu .submenu #subm {
+      width: 20%;
+      float: left; }
+    .contenedor-menu .submenu #inicio {
+      width: 20%; }
 
 /*# sourceMappingURL=inicio.css.map */

@@ -1,8 +1,19 @@
 .contenedor-menu{
+    box-sizing: border-box;
     border: solid;
     float: left;
     width: 100%;
     text-decoration: none;
     list-style: decoration ;
-    
+         .submenu{
+             width: 100%;
+             float: left;
+             #subm{
+                 width: 20%;
+                 float: left;
+             }
+                #inicio{
+                    width: 20%;
+                }
+         }
 }

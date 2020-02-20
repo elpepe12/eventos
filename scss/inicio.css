@@ -1,5 +1,8 @@
-body {
-  color: aqua;
-  background: blue; }
+.contenedor-menu {
+  border: solid;
+  float: left;
+  width: 100%;
+  text-decoration: none;
+  list-style: decoration; }
 
 /*# sourceMappingURL=inicio.css.map */

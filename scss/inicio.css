@@ -1,5 +1,7 @@
 /* menu */
-
+* {
+  box-sizing: border-box;
+} 
 
 body { 
   background: rgb(240, 122, 53);
@@ -301,8 +303,42 @@ label:after {
 	border-bottom-right-radius: 50%;
 }
 
+/*inicio de cajas*/
 
+#uno > div {
+  border: 1px solid orangered;
+  width: 25%;
+  float: left;
+  text-align: center;
+  margin: auto;
+  color: rgb(0, 255, 21);
+  background-color: gray;
+}
 
+.article{
+  float: left;
+  padding: 20px;
+  width: 90%;
+  background-color: indigo;
+  height: 450px;
+  border-style: double;
+}
+.article img{
+  height: 100%;
+  width: 100%;
+}
+.b:hover{
+    
+  color: rgb(8, 8, 8);
+  background-color: yellow;
+}
+.imagen{
+  float: 27%;
+}
+.a, .b {
+  background: orange;
+}
+/*fin de cajas*/
 
 /*fin de carusel*/
 

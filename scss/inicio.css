@@ -186,6 +186,10 @@ ul.primary li:hover > a{
 
 /*inicio de cajas*/
 
+#uno{
+    margin-bottom: 100px;
+    float: left;
+}
 #uno > div {
   border: 1px solid orangered;
   width: 25%;
@@ -221,7 +225,23 @@ ul.primary li:hover > a{
 }
 /*fin de cajas*/
 
-/*fin de carusel*/
+/*inicio de pie de pagina*/
+
+#fin{
+    bottom: 0;
+    position: absolute;
+    background: black;
+    color: blanchedalmond;
+    width: 100%;
+    text-align: center;
+    margin: -100px -9px;
+    border: solid;
+}
+.informacion{
+    margin: 10px 10px;
+}
+
+/*fin de pie de pagina*/
 
 
 

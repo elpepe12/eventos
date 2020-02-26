@@ -182,4 +182,88 @@ body {
   }
   /*finaliza menu*/
 
+  /* inicia cajas de eventos */
+
+.caja{
+  width: 100%;
+  float: left;
+} 
+.imagen{
+  width: 30%;
+  float: left;
+}
+.caja{
+  background: green;
+  border-style: groove;
+}
+.info{
+    float: left;
+    width: 30%;
+}
+.informacion{
+  width: 76%;
+
+}
+.informacion{
+    font-size: medium;
+}
+#g{
+  color: blue;
+}
+#r{
+  color: yellow;
+}
+#u{
+  color: darkorange;
+}
+#c{
+  color: cyan;
+}
+#f{
+  color: springgreen;
+}
+#m{
+  width: 60%;
+  float: right;
+}
+.caja1{
+  float: left;
+  margin: 6px 0px;
+  background: #db9209c5;
+  border-style: groove;
+  width: 100%;
+  float: left;
+}
+.info{
+  float: left;
+  width: 30%;
+}
+.informacion{
+width: 76%;
+
+}
+.informacion{
+  font-size: medium;
+}
+#gg{
+color: rgb(241, 20, 68);
+}
+#rr{
+color: rgb(51, 223, 28);
+}
+#uu{
+color: rgb(226, 69, 21);
+}
+#cc{
+color: rgb(207, 21, 130);
+}
+#ff{
+color: rgb(22, 9, 83);
+}
+#mm{
+width: 60%;
+float: right;
+}
+  /*finaliza cajas de eventos*/
+
 /*# sourceMappingURL=eventosinicio.css.map */

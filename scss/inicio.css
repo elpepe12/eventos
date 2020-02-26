@@ -228,7 +228,7 @@ ul.primary li:hover > a{
 /*inicio de pie de pagina*/
 
 #fin{
-    bottom: 0;
+    bottom: -70px;
     position: absolute;
     background: black;
     color: blanchedalmond;

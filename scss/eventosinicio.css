@@ -308,6 +308,142 @@ float: right;
   float: right;
 }
 
+/*css de caja 3*/
+.caja3{
+  width: 100%;
+  float: left;
+  margin: 5px 0px;
+} 
+.imagen{
+  width: 30%;
+  float: left;
+}
+.caja3{
+  background: rgba(209, 190, 81, 0.6);
+  border-style: groove;
+}
+.info{
+    float: left;
+    width: 30%;
+}
+.informacion{
+  width: 76%;
+
+}
+.informacion{
+    font-size: medium;
+}
+#gggg{
+  color: blue;
+}
+#rrrr{
+  color: rgb(12, 216, 39);
+}
+#uuuu{
+  color: darkorange;
+}
+#cccc{
+  color: rgb(25, 29, 29);
+}
+#ffff{
+  color: rgb(255, 0, 140);
+}
+#mmmm{
+  width: 60%;
+  float: right;
+}
+
+/*css de caja 4*/
+.caja4{
+  width: 100%;
+  float: left;
+  margin: 5px 0px;
+} 
+.imagen{
+  width: 30%;
+  float: left;
+}
+.caja4{
+  background: rgba(212, 245, 29, 0.6);
+  border-style: groove;
+}
+.info{
+    float: left;
+    width: 30%;
+}
+.informacion{
+  width: 76%;
+
+}
+.informacion{
+    font-size: medium;
+}
+#ggggg{
+  color: blue;
+}
+#rrrrr{
+  color: rgb(255, 0, 157);
+}
+#uuuuu{
+  color: rgb(0, 255, 55);
+}
+#ccccc{
+  color: cyan;
+}
+#fffff{
+  color: rgb(57, 185, 31);
+}
+#mmmmm{
+  width: 60%;
+  float: right;
+}
+
+
+/*css de caja 5*/
+.caja5{
+  width: 100%;
+  float: left;
+  margin: 5px 0px;
+} 
+.imagen{
+  width: 30%;
+  float: left;
+}
+.caja5{
+  background: rgba(23, 160, 194, 0.6);
+  border-style: groove;
+}
+.info{
+    float: left;
+    width: 30%;
+}
+.informacion{
+  width: 76%;
+
+}
+.informacion{
+    font-size: medium;
+}
+#gggggg{
+  color: rgb(15, 15, 17);
+}
+#rrrrrr{
+  color: yellow;
+}
+#uuuuuu{
+  color: darkorange;
+}
+#cccccc{
+  color: rgb(231, 85, 17);
+}
+#ffffff{
+  color: springgreen;
+}
+#mmmmmm{
+  width: 60%;
+  float: right;
+}
+
   /*finaliza cajas de eventos*/
 
 /*# sourceMappingURL=eventosinicio.css.map */

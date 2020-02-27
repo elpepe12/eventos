@@ -446,4 +446,23 @@ float: right;
 
   /*finaliza cajas de eventos*/
 
+/*inicio de pie de pagina*/
+
+#fin{
+  bottom: -1867px;
+  position: absolute;
+  background: black;
+  color: blanchedalmond;
+  width: 100%;
+  text-align: center;
+  margin: -100px -9px;
+  border: solid;
+}
+.informacionn{
+
+  margin: 3px 195px;
+}
+
+/*fin de pie de pagina*/ 
+
 /*# sourceMappingURL=eventosinicio.css.map */

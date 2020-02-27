@@ -181,4 +181,63 @@ ul.primary li:hover > a{
   }
 }
 /*finaliza menu*/
+
+ /*inicio de cajas*/
+ #uno{
+  margin-bottom: 100px;
+  float: left;
+}
+#uno > div {
+border-style: groove;
+width: 24%;
+float: left;
+text-align: center;
+margin: auto;
+color: rgb(0, 255, 21);
+background-color: gray;
+}
+
+.article{
+float: left;
+padding: 30px 59px;
+width: 90%;
+background-color: indigo;
+height: 450px;
+border-style: double;
+}
+.article img{
+height: 100%;
+width: 100%;
+}
+.b:hover{
+  
+color: rgb(8, 8, 8);
+background-color: yellow;
+}
+.imagen{
+float: 27%;
+}
+.a, .b {
+background: orange;
+}
+/*fin de cajas*/
+
+/*inicio de pie de pagina*/
+
+#fin{
+  bottom: -330px;
+  position: absolute;
+  background: black;
+  color: blanchedalmond;
+  width: 98%;
+  text-align: center;
+  margin: -100px 0px;
+  border: solid;
+}
+.informacion{
+
+  margin: 10px 10px;
+}
+
+/*fin de pie de pagina*/
 /*# sourceMappingURL=categoriasalsa.css.map */

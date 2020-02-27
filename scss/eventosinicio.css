@@ -193,7 +193,7 @@ body {
   float: left;
 }
 .caja{
-  background: green;
+  background: rgb(19, 177, 19,0.7);
   border-style: groove;
 }
 .info{
@@ -264,6 +264,50 @@ color: rgb(22, 9, 83);
 width: 60%;
 float: right;
 }
+/*css de caja 2*/
+.caja2{
+  width: 100%;
+  float: left;
+} 
+.imagen{
+  width: 30%;
+  float: left;
+}
+.caja2{
+  background: rgba(194, 23, 128, 0.6);
+  border-style: groove;
+}
+.info{
+    float: left;
+    width: 30%;
+}
+.informacion{
+  width: 76%;
+
+}
+.informacion{
+    font-size: medium;
+}
+#ggg{
+  color: blue;
+}
+#rrr{
+  color: yellow;
+}
+#uuu{
+  color: darkorange;
+}
+#ccc{
+  color: cyan;
+}
+#fff{
+  color: springgreen;
+}
+#mmm{
+  width: 60%;
+  float: right;
+}
+
   /*finaliza cajas de eventos*/
 
 /*# sourceMappingURL=eventosinicio.css.map */

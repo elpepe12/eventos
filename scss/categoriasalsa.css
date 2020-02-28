@@ -186,15 +186,18 @@ ul.primary li:hover > a{
  #uno{
   margin-bottom: 100px;
   float: left;
+  
 }
 #uno > div {
+  border: 13px outset #342c7ca1;  
+border-radius: 44px;
 border-style: groove;
-width: 24%;
+width: 20%;
 float: left;
 text-align: center;
-margin: auto;
+margin: 10px;
 color: rgb(0, 255, 21);
-background-color: gray;
+background-color: rgb(0,0,0,0.4);
 }
 
 .article{
@@ -216,6 +219,7 @@ background-color: yellow;
 }
 .imagen{
 float: 27%;
+border: 14px outset #3d647f;
 }
 .a, .b {
 background: orange;

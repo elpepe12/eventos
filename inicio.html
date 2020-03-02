@@ -8,6 +8,58 @@
     <title>Inicio</title>
     <link rel="stylesheet" href="scss/inicio.css">
     <script src="js/inicio.js"></script>
+   
+    <!-- inicio slider -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script>
+var current = 0;
+var imagenes = new Array();
+ 
+$(document).ready(function() {
+    var numImages = 8;
+    if (numImages <= 3) {
+        $('.right-arrow').css('display', 'none');
+        $('.left-arrow').css('display', 'none');
+    }
+ 
+    $('.left-arrow').on('click',function() {
+        if (current > 0) {
+            current = current - 1;
+        } else {
+            current = numImages - 3;
+        }
+ 
+        $(".carrusel").animate({"left": -($('#product_'+current).position().left)}, 600);
+ 
+        return false;
+    });
+ 
+    $('.left-arrow').on('hover', function() {
+        $(this).css('opacity','0.5');
+    }, function() {
+        $(this).css('opacity','1');
+    });
+ 
+    $('.right-arrow').on('hover', function() {
+        $(this).css('opacity','0.5');
+    }, function() {
+        $(this).css('opacity','1');
+    });
+ 
+    $('.right-arrow').on('click', function() {
+        if (numImages > current + 3) {
+            current = current+1;
+        } else {
+            current = 0;
+        }
+ 
+        $(".carrusel").animate({"left": -($('#product_'+current).position().left)}, 600);
+ 
+        return false;
+    }); 
+ });
+</script>
+ <!-- fin de slider -->
 </head>
 
 <body>
@@ -39,6 +91,76 @@
       </div>
   </section>  
   <!-- finaliza menu -->
+  <!--inicio  slaider-->
+  <section>
+    <div id="carrusel">
+      <a href="#" class="left-arrow"><img src="imagenes/izquierda.png" /></a>
+      <a href="#" class="right-arrow"><img src="imagenes/derecha.png" /></a>
+      <div class="carrusel">
+          <div class="product" id="product_0">
+              <img src="imagenes/defo.jpg" width="195" height="100" />
+              <h5>deftones en concierto</h5>
+              <p>165.000 cob</p>
+          </div>
+          <div class="product" id="product_1">
+              <img src="imagenes/gunserose.jpg" width="195" height="100" />
+              <h5>Guns Rose en concierto</h5>
+              <p>100.000 cob</p>
+          </div>
+          <div class="product" id="product_2">
+              <img src="imagenes/noticias.jpg" width="195" height="100" />
+              <h5>Visita nuestras noticias </h5>
+              <p>Novedades</p>
+          </div>
+          <div class="product" id="product_3">
+              <img src="imagenes/carucel3.jpg" width="195" height="100" />
+              <h5>Mira los eventos en vivo</h5>
+              <p>Trasmicion en vivo</p>
+          </div>
+          <div class="product" id="product_4">
+              <img src="imagenes/descargg.jpg" width="195" height="100" />
+              <h5>Ruben Blandes en concierto</h5>
+              <p>320.000 cob</p>
+          </div>
+          <div class="product" id="product_5">
+              <img src="imagenes/carucel1.jpg" width="195" height="100" />
+              <h5>Una mezcla brutal para bailar</h5>
+              <p>Eventos al aire libre</p>   
+          </div>
+          <div class="product" id="product_6">
+            <img src="imagenes/descargados.jpg" width="195" height="100" />
+            <h5>Gilberto Santa Rosa en concierto</h5>
+            <p>165.000 cob</p>
+        </div>
+        <div class="product" id="product_7">
+            <img src="imagenes/descargatres.jpg" width="195" height="100" />
+            <h5>Victor Manuelle en concierto</h5>
+            <p>100.000 cob</p>
+        </div>
+        <div class="product" id="product_8">
+            <img src="imagenes/carucel2.jpg" width="195" height="100" />
+            <h5>Informate sobre bandas de rock que vendran este año</h5>
+            <p>Informacion</p>
+        </div>
+        <div class="product" id="product_9">
+            <img src="imagenes/carucel.jpg" width="195" height="100" />
+            <h5>Acompañanos este 22 enero </h5>
+            <p>Parque nacional </p>
+        </div>
+        <div class="product" id="product_10">
+            <img src="imagenes/salsa.jpg" width="195" height="100" />
+            <h5>Disfruta nuestros eventos de salsa </h5>
+            <p>Para que no pares de festejar</p>
+        </div>
+        <div class="product" id="product_11">
+            <img src="imagenes/calendario.jpg" width="195" height="100" />
+            <h5>Mira nuestro calendario de eventos</h5>
+            <p>Animate y articipa</p>
+        </div>
+      </div>
+  </div>
+  </section>
+  <!-- cierre slaider -->
 
  <!-- inicio de cajas  -->
 

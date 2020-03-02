@@ -4,7 +4,7 @@
 } 
 
 body { 
-  background: rgb(240, 122, 53);
+  background: rgb(53, 25, 10);
   font-family: helvetica, arial, serif;
   font-size: 13px;
   text-transform: uppercase;
@@ -184,20 +184,79 @@ ul.primary li:hover > a{
 }
 /*finaliza menu*/
 
+/*inicia slaider*/
+
+#carrusel {
+  float:left;
+  width: 100%;
+  overflow:hidden;
+  height:239px;
+  position:relative;
+  margin-top:60px;
+  margin-bottom:20px;
+}
+
+#carrusel .left-arrow {
+  position:absolute;
+  left:10px;
+  z-index:1;
+  top:50%;
+  margin-top:-9px;
+}
+
+#carrusel .right-arrow {
+  position:absolute;
+  right:10px;
+  z-index:1;
+  top:50%;
+  margin-top:-9px;
+}
+
+.carrusel {
+  width:4000px;
+  left:0px;
+  position:absolute;
+  z-index:0;
+}
+
+.carrusel>div {
+  float: left;
+  height: 203px;
+  margin-right: 5px;
+  width: 195px;
+  text-align:center;
+}
+
+.carrusel img {
+  cursor:pointer;
+}
+
+.product {
+  border:#CCCCCC 1px solid;
+  background: rgba(27, 146, 155, 0.6);
+  color: rgb(248, 242, 242);
+}
+/*fin de slaider*/
+
 /*inicio de cajas*/
 
 #uno{
     margin-bottom: 100px;
     float: left;
+ 
 }
 #uno > div {
+
+  border-radius: 24px;
+  border: 12px outset rgba(44, 167, 172);  
+  margin: 14px; 
+
   border-style: groove orangered;
-  width: 25%;
+  width: 23%;
   float: left;
   text-align: center;
-  margin: auto;
   color: rgb(0, 255, 21);
-  background-color: gray;
+  background-color: rgb(68, 9, 9);
 }
 
 .article{
@@ -228,7 +287,7 @@ ul.primary li:hover > a{
 /*inicio de pie de pagina*/
 
 #fin{
-    bottom: -263px;
+    bottom: -600px;
     position: absolute;
     background: black;
     color: blanchedalmond;

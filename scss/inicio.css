@@ -4,7 +4,7 @@
 } 
 
 body { 
-  background: rgb(53, 25, 10);
+  background: rgb(12, 12, 12);
   font-family: helvetica, arial, serif;
   font-size: 13px;
   text-transform: uppercase;
@@ -220,6 +220,7 @@ ul.primary li:hover > a{
 }
 
 .carrusel>div {
+  border-radius: 37px;
   float: left;
   height: 203px;
   margin-right: 5px;
@@ -229,11 +230,12 @@ ul.primary li:hover > a{
 
 .carrusel img {
   cursor:pointer;
+  border-radius: 74px
 }
 
 .product {
   border:#CCCCCC 1px solid;
-  background: rgba(27, 146, 155, 0.6);
+  background: rgba(61, 150, 156, 0.5);
   color: rgb(248, 242, 242);
 }
 /*fin de slaider*/
@@ -248,7 +250,7 @@ ul.primary li:hover > a{
 #uno > div {
 
   border-radius: 24px;
-  border: 12px outset rgba(44, 167, 172);  
+  border: 12px outset rgb(247, 248, 248);  
   margin: 14px; 
 
   border-style: groove orangered;
@@ -256,7 +258,7 @@ ul.primary li:hover > a{
   float: left;
   text-align: center;
   color: rgb(0, 255, 21);
-  background-color: rgb(68, 9, 9);
+  background-color: rgba(48, 139, 161, 0.2);
 }
 
 .article{
@@ -280,7 +282,9 @@ ul.primary li:hover > a{
   float: 27%;
 }
 .a, .b {
-  background: orange;
+  background: rgba(58, 233, 52, 0.753);
+  border-radius: 30px;
+    margin: 20px 58px;
 }
 /*fin de cajas*/
 

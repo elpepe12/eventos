@@ -201,6 +201,8 @@ background-color: rgb(0,0,0,0.4);
 }
 
 .article{
+  box-shadow: 8px -8px 11px #999; 
+  
 float: left;
 padding: 30px 59px;
 width: 90%;

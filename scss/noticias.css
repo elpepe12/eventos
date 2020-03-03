@@ -4,6 +4,7 @@ body {
   font-size: 13px;
   text-transform: uppercase;
   text-align: center;
+ 
 }
  
 .wrap {
@@ -12,6 +13,7 @@ body {
   -moz-box-shadow: 0 0 70px #fff;
   box-shadow: 0 0 70px #fff;
   margin-top: 40px;
+  margin: 150px;
 }
 
 /* a little "umph" */
@@ -178,3 +180,60 @@ ul.primary li:hover > a{
   }
 }
 /*finaliza menu*/
+
+/*letras de color*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+	background-color: #111;
+}
+
+.title {
+  font-family: "Montserrat";
+	text-align: center;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 0px;
+	letter-spacing: 1px;
+}
+
+h1 {
+	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text; 
+	text-transform: uppercase;
+	font-size: 85px;
+	/* line-height: .75; */
+	margin: 12px 0;
+}
+/* styling my button */
+
+.white-mode {
+	text-decoration: none;
+	padding: 0px 0px;
+	background-color: #122;
+	border-radius: 3px;
+	color: #FFF;
+	transition: .35s ease-in-out;
+	position: relative;
+	left: 15px;
+	bottom: 15px;
+	font-family: "Montserrat";
+}
+
+.white-mode:hover {
+	background-color: #FFF;
+	color: #122;
+}
+/*letras de color fin*/
+.intronoticias{
+  color: rgb(255, 255, 255);
+  margin: 131px 11px;
+  height: 101px;
+
+}

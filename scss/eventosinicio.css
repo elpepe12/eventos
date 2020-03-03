@@ -1,8 +1,11 @@
 /* menu */
 
-
+/* *{
+  background: url(imagenes/fondo.jpg) no-repeat center top;
+} */
 body { 
-    background: rgb(214, 54, 54);
+  
+     background: rgb(0, 0, 0); 
     font-family: helvetica, arial, serif;
     font-size: 13px;
     text-transform: uppercase;
@@ -185,15 +188,20 @@ body {
   /* inicia cajas de eventos */
 
 .caja{
-  width: 100%;
+  color: rgb(253, 249, 249);
+  width: 98%;
   float: left;
+  margin: 23px 14px;
+  /* -webkit-box-shadow: inset 7px 7px 7px #909090 ; */
 } 
 .imagen{
   width: 30%;
   float: left;
 }
 .caja{
-  background: rgb(19, 177, 19,0.7);
+  border: 5px outset rgb(26, 236, 236);
+  border-radius: 52px;
+  background: rgb(19, 177, 19,0.4);
   border-style: groove;
 }
 .info{
@@ -227,12 +235,15 @@ body {
   float: right;
 }
 .caja1{
+  color: white;
+  width: 98%;
   float: left;
-  margin: 6px 0px;
-  background: #db9209c5;
+  margin: 7px 14px;
+  border: 5px outset rgb(58, 40, 219);
+  border-radius: 52px;
+  background: rgba(14, 235, 216, 0.4);
   border-style: groove;
-  width: 100%;
-  float: left;
+  
 }
 .info{
   float: left;
@@ -266,14 +277,19 @@ float: right;
 }
 /*css de caja 2*/
 .caja2{
-  width: 100%;
+  color: white;
+  width: 98%;
   float: left;
+  margin: 0px 14px;
+  
 } 
 .imagen{
   width: 30%;
   float: left;
 }
 .caja2{
+  border: 5px outset rgb(247, 248, 248);
+  border-radius: 52px;
   background: rgba(194, 23, 128, 0.6);
   border-style: groove;
 }
@@ -283,7 +299,6 @@ float: right;
 }
 .informacion{
   width: 76%;
-
 }
 .informacion{
     font-size: medium;
@@ -310,15 +325,18 @@ float: right;
 
 /*css de caja 3*/
 .caja3{
-  width: 100%;
+  color: white;
+  width: 98%;
   float: left;
-  margin: 5px 0px;
+  margin: 7px 14px;
 } 
 .imagen{
   width: 30%;
   float: left;
 }
 .caja3{
+  border: 5px outset rgb(247, 248, 248);
+  border-radius: 52px;
   background: rgba(209, 190, 81, 0.6);
   border-style: groove;
 }
@@ -355,15 +373,19 @@ float: right;
 
 /*css de caja 4*/
 .caja4{
-  width: 100%;
+  color: white;
+  width: 98%;
   float: left;
-  margin: 5px 0px;
+  margin: 7px 14px;
 } 
 .imagen{
   width: 30%;
   float: left;
 }
 .caja4{
+  border: 5px outset rgb(247, 248, 248);
+  border-radius: 52px;
+
   background: rgba(212, 245, 29, 0.6);
   border-style: groove;
 }
@@ -401,15 +423,19 @@ float: right;
 
 /*css de caja 5*/
 .caja5{
-  width: 100%;
+  color: white;
+  width: 98%;
   float: left;
-  margin: 5px 0px;
+  margin: 7px 14px;
 } 
 .imagen{
   width: 30%;
   float: left;
 }
 .caja5{
+  border: 5px outset rgb(247, 248, 248);
+  border-radius: 52px;
+
   background: rgba(23, 160, 194, 0.6);
   border-style: groove;
 }

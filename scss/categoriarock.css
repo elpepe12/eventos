@@ -2,7 +2,7 @@
 
 
 body { 
-  background: rgb(61, 137, 167);
+  background: rgb(2, 2, 2);
   font-family: helvetica, arial, serif;
   font-size: 13px;
   text-transform: uppercase;
@@ -188,16 +188,20 @@ ul.primary li:hover > a{
   float: left;
 }
 #uno > div {
+  border-radius: 33px;
+  border: 9px outset rgb(247, 248, 248);
+  margin: 14px;
+
 border-style: groove;
-width: 24%;
+width: 21%;
 float: left;
 text-align: center;
-margin: auto;
-color: rgb(0, 255, 21);
-background-color: gray;
+color: #f9fcfa;
+background-color: rgba(228, 30, 30, 0.4);
 }
 
 .article{
+  box-shadow: 8px -8px 11px rgba(253, 6, 6, 0.726); 
 float: left;
 padding: 30px 59px;
 width: 90%;
@@ -206,6 +210,8 @@ height: 450px;
 border-style: double;
 }
 .article img{
+  border: 8px outset rgb(247, 248, 248);
+    border-radius: 23px;
 height: 100%;
 width: 100%;
 }
@@ -218,7 +224,10 @@ background-color: yellow;
 float: 27%;
 }
 .a, .b {
-background: orange;
+  background: rgba(12, 12, 12);
+  border-radius: 30px;
+    margin: 20px 58px;
+
 }
 /*fin de cajas*/
 

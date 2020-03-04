@@ -181,4 +181,13 @@ ul.primary li:hover > a{
   }
 }
 /*finaliza menu*/
+
+/*inicia informacion*/
+#imagen{
+border-radius: 0px 140px;
+width: 40%;
+margin: 0px 0px 149px;
+border: 10px outset rgb(0,0,0);
+}
+/*finaliza informacion*/
 /*# sourceMappingURL=evento1s.css.map */

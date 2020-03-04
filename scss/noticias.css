@@ -262,7 +262,7 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url(https://aws.revistavanityfair.es/prod/designs/v1/assets/785x589/199873.jpg);
+  background-image: url(https://gifimage.net/wp-content/uploads/2017/11/fondos-gif-para-paginas-web-con-movimiento-12-300x200.gif);
   background-size: cover;
   -webkit-filter: blur(25px);
   z-index: -1;
@@ -295,6 +295,103 @@ body {
   z-index: -1;
   transform: translateX(-60px);
 }
-
-
 /* contenido uno fin */
+
+
+/* contenido dos inicio */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #2e2e2e;
+  color: #1e1e1e;
+  font-family: 'Montserrat', sans-serif;
+}
+.containers {
+  display: flex;
+  justify-content: center;
+  height: 1vh;
+  align-items: center;
+  position: relative;
+}
+
+.boxy {
+  width: 800px;
+  display: flex;
+  height: 200px;
+  transform:translatex(60px)
+}
+.contento {
+    width: calc(50% - -347px);
+    background-color: white;
+    /* line-height: 1.4; */
+    padding: 5px;
+
+}
+.contento h3 {
+  margin-bottom: 5px;
+}
+.image {
+  width: 50%;
+  border-bottom: 200px solid transparent;
+  border-left: 60px solid white;
+}
+.image img {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  z-index: -1;
+  transform: translateX(-60px);
+}
+/* contenido dos fin */
+
+/*contenido tres inicio */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #2e2e2e;
+  color: #1e1e1e;
+  font-family: 'Montserrat', sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  position: relative;
+}
+
+.box {
+  width: 800px;
+  display: flex;
+  height: 200px;
+  transform:translatex(60px)
+}
+.content {
+    width: calc(50% - -347px);
+    background-color: white;
+    /* line-height: 1.4; */
+    padding: 5px;
+
+}
+.content h3 {
+  margin-bottom: 5px;
+}
+.image {
+  width: 50%;
+  border-bottom: 200px solid transparent;
+  border-left: 60px solid white;
+}
+.image img {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  z-index: -1;
+  transform: translateX(-60px);
+}
+/*contenido tres fin */

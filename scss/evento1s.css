@@ -203,5 +203,68 @@ ul.primary li:hover > a{
     margin: 49px 0px;
     padding: 24px 19px;
 }
+#texto{
+  background: white;
+  float: left;
+  border: solid;
+  width: 64%;
+  margin: 22px 0px;
+}
+.informacion{
+  float: left;
+  font-size: 27px;
+  width: 57%;
+  margin: 45px;
+  height: 96px;
+  padding: 4px 4px;
+}
+.maps{
+  background: red;
+  margin: -9px 25px;
+}
+.caja{
+  float: left;
+  width: 100%;
+}
+.bandas{
+  width: 40%;
+  float: left;
+}
+#banda {
+  width: 32%;
+}
+.ull{
+  border: solid;
+    padding: 10px 113px;
+}
+#prohi{
+  width: 50%;
+    float: right;
+}
+#fecha{
+  float: left;
+}
+#hora{
+  float: left;
+}
+.caja1{
+    float: left;
+    width: 100%;
+}
+#fecha{
+  width: 50%;
+}
+#hora{
+  width: 50%;
+}
+
+.ff{
+  width: 100%;
+  margin: 0px 243px;
+  color: white;
+  background: black;
+  border: solid;
+}
+
 /*finaliza informacion*/
 /*# sourceMappingURL=evento1s.css.map */

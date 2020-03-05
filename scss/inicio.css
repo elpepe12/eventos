@@ -3,8 +3,12 @@
   box-sizing: border-box;
 } 
 
+
 body { 
-  background: rgb(12, 12, 12);
+  box-sizing: border-box;
+  background-image: url(../imagenes/fond.jpg);
+  background-size: contain;
+ /*  background: rgb(12, 12, 12); */
   font-family: helvetica, arial, serif;
   font-size: 13px;
   text-transform: uppercase;

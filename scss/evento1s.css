@@ -184,10 +184,24 @@ ul.primary li:hover > a{
 
 /*inicia informacion*/
 #imagen{
-border-radius: 0px 140px;
-width: 40%;
-margin: 0px 0px 149px;
-border: 10px outset rgb(0,0,0);
+  float: right;
+  border-radius: 244px 0px;
+  width: 34%;
+  margin: 48px 0px 149px;
+  border: 10px outset rgb(0,0,0);
+}
+
+#titulo{
+  height: 8px 14px;
+    float: left;
+    border-radius: 105px 0px;
+    /* TEXT-ALIGN: center; */
+    width: 61%;
+    color: red;
+    border: solid;
+    background: black;
+    margin: 49px 0px;
+    padding: 24px 19px;
 }
 /*finaliza informacion*/
 /*# sourceMappingURL=evento1s.css.map */

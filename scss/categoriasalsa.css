@@ -2,9 +2,12 @@
 
 
 body { 
-  background: rgb(5, 5, 5);
+  box-sizing: border-box;
+  background-image: url(../imagenes/fond.jpg);
+  background-size: contain;
+/*   background: rgb(5, 5, 5); */
   font-family: helvetica, arial, serif;
-  font-size: 13px;
+  font-size: 13px; 
   text-transform: uppercase;
   text-align: center;
 }

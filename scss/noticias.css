@@ -258,11 +258,11 @@ body {
 }
 .overlay {
   position: absolute;
-  top: 0;
+  top: -50% ;
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url(https://gifimage.net/wp-content/uploads/2017/11/fondos-gif-para-paginas-web-con-movimiento-12-300x200.gif);
+  background-image: url(https://i.pinimg.com/originals/bd/bb/a3/bdbba3977de1fb0442a43b99f368ebc0.jpg);
   background-size: cover;
   -webkit-filter: blur(25px);
   z-index: -1;
@@ -275,7 +275,7 @@ body {
 }
 .content {
     width: calc(50% - -347px);
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     /* line-height: 1.4; */
     padding: 5px;
 
@@ -286,7 +286,7 @@ body {
 .image {
   width: 50%;
   border-bottom: 200px solid transparent;
-  border-left: 60px solid white;
+  border-left: 60px solid rgb(255, 255, 255);
 }
 .image img {
   width: 100%;
@@ -306,7 +306,7 @@ body {
 }
 body {
   background-color: #2e2e2e;
-  color: #1e1e1e;
+  color: #d61f1f;
   font-family: 'Montserrat', sans-serif;
 }
 .containers {
@@ -325,7 +325,7 @@ body {
 }
 .contento {
     width: calc(50% - -347px);
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     /* line-height: 1.4; */
     padding: 5px;
 

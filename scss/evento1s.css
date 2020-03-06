@@ -210,7 +210,9 @@ ul.primary li:hover > a{
   width: 64%;
   margin: 22px 0px;
 }
-.informacion{
+.ubicacion{
+  border-radius: 58px;
+  border: solid;
   float: left;
   font-size: 27px;
   width: 56%;
@@ -266,6 +268,14 @@ ul.primary li:hover > a{
   color: white;
   background: black;
   border: solid;
+}
+.informacion{
+  float: left;
+  font-size: 27px;
+  width: 56%;
+  margin: 45px;
+  height: 72px;
+  padding: 4px 4px;
 }
 
 /*finaliza informacion especifica de evento*/

@@ -201,7 +201,7 @@ body {
 .caja{
   border: 5px outset rgb(26, 236, 236);
   border-radius: 52px;
-  background: rgb(19, 177, 19,0.4);
+  background: rgba(0, 0, 0, 0.4);
   border-style: groove;
 }
 .info{
@@ -290,7 +290,7 @@ float: right;
 .caja2{
   border: 5px outset rgb(247, 248, 248);
   border-radius: 52px;
-  background: rgba(194, 23, 128, 0.6);
+  background: rgba(0, 0, 0, 0.6);
   border-style: groove;
 }
 .info{
@@ -337,7 +337,7 @@ float: right;
 .caja3{
   border: 5px outset rgb(247, 248, 248);
   border-radius: 52px;
-  background: rgba(209, 190, 81, 0.6);
+  background: rgba(2, 2, 2, 0.6);
   border-style: groove;
 }
 .info{
@@ -386,7 +386,7 @@ float: right;
   border: 5px outset rgb(247, 248, 248);
   border-radius: 52px;
 
-  background: rgba(212, 245, 29, 0.6);
+  background: rgba(0, 0, 0, 0.6);
   border-style: groove;
 }
 .info{
@@ -436,7 +436,7 @@ float: right;
   border: 5px outset rgb(247, 248, 248);
   border-radius: 52px;
 
-  background: rgba(23, 160, 194, 0.6);
+  background: rgba(0, 0, 0, 0.6);
   border-style: groove;
 }
 .info{

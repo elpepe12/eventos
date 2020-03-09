@@ -17,7 +17,7 @@ body {
 }
 
 /* a little "umph" */
-.decor {
+.decor { 
   background: #6EAF8D;
   background: -webkit-linear-gradient(left, #CDEBDB 50%, #6EAF8D 50%);
   background: -moz-linear-gradient(left, #CDEBDB 50%, #6EAF8D 50%);

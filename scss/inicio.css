@@ -6,11 +6,12 @@
 
 body { 
   box-sizing: border-box;
-  background-image: url(../imagenes/fond.jpg);
+  background-image: url(https://image.freepik.com/foto-gratis/fondo-abstracto-technologico-lineas-conectividad_1048-5570.jpg);
   background-size: contain;
  /*  background: rgb(12, 12, 12); */
   font-family: helvetica, arial, serif;
-  font-size: 13px;
+  font-size: -50px;
+  left:-30;
   text-transform: uppercase;
   text-align: center;
 }

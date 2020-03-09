@@ -182,3 +182,101 @@ ul.primary li:hover > a{
 }
 /*finaliza menu*/
 /*# sourceMappingURL=evento3s.css.map */
+/*inicia informacion especifica de evento*/
+#imagen{
+  float: right;
+  border-radius: 244px 0px;
+  width: 34%;
+  margin: 48px 0px 149px;
+  border: 10px outset rgb(0,0,0);
+}
+
+#titulo{
+  height: 8px 14px;
+    float: left;
+    border-radius: 105px 0px;
+    /* TEXT-ALIGN: center; */
+    width: 61%;
+    color: red;
+    border: solid;
+    background: black;
+    margin: 49px 0px;
+    padding: 24px 19px;
+}
+#texto{
+  background: white;
+  float: left;
+  border-radius: 10px;
+  width: 64%;
+  margin: 22px 0px;
+}
+.ubicacion{
+  border-radius: 58px;
+  border: solid;
+  float: left;
+  font-size: 27px;
+  width: 56%;
+  margin: 45px;
+  height: 72px;
+  padding: 4px 4px;
+}
+.maps{
+  background: red;
+  margin: -9px 25px;
+}
+.caja{
+  height: 357px;
+  float: left;
+  width: 100%;
+}
+.bandas{
+  width: 40%;
+  float: left;
+}
+#banda {
+  width: 32%;
+}
+.ull{
+  border: solid;
+    padding: 10px 113px;
+}
+#prohi{
+  width: 50%;
+    float: right;
+}
+#fecha{
+  float: left;
+}
+#hora{
+  float: left;
+}
+.caja1{
+  height: 52px;
+    float: left;
+    width: 100%;
+}
+#fecha{
+  width: 50%;
+}
+#hora{
+  width: 50%;
+}
+
+.ff{
+  width: 100%;
+  margin: 0px 243px;
+  color: white;
+  background: black;
+  border: solid;
+}
+.informacion{
+  float: left;
+  font-size: 27px;
+  width: 56%;
+  margin: 45px;
+  height: 72px;
+  padding: 4px 4px;
+}
+
+/*finaliza informacion especifica de evento*/
+/*# sourceMappingURL=evento1s.css.map */

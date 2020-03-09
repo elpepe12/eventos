@@ -23,11 +23,11 @@ body {
 
 /* a little "umph" */
 .decor {
-  background: #6EAF8D;
-  background: -webkit-linear-gradient(left, #CDEBDB 50%, #6EAF8D 50%);
-  background: -moz-linear-gradient(left, #CDEBDB 50%, #6EAF8D 50%);
-  background: -o-linear-gradient(left, #CDEBDB 50%, #6EAF8D 50%);
-  background: linear-gradient(left, white 50%, #6EAF8D 50%);
+  background: rgb(175, 110, 110);
+  background: -webkit-linear-gradient(left, rgb(8, 8, 8) 50%, rgb(212, 28, 15) 50%);
+  background: -moz-linear-gradient(left, #CDEBDB 50%,rgb(212, 28, 15) 50%);
+  background: -o-linear-gradient(left, #CDEBDB 50%,rgb(212, 28, 15) 50%);
+  background: linear-gradient(left, white 50%,rgb(212, 28, 15) 50%);
   background-size: 50px 25%;;
   padding: 2px;
   display: block;
@@ -40,6 +40,7 @@ a {
 }
 
 ul {
+  background: rgb(0,0,0);
   list-style: none;
   position: relative;
   text-align: left;
@@ -79,6 +80,7 @@ nav {
 
 /* prime */
 ul.primary li a {
+  background: rgb(0,0,0);
   display: block;
   padding: 20px 30px;
   border-right: 1px solid #3D3D3D;
@@ -248,10 +250,16 @@ ul.primary li:hover > a{
   float: left;
 }
 #banda {
-  width: 32%;
+  color: white;
+  background: rgba(230, 17, 134, 0.5);
+  width: 0%;
+}
+.ull:hover{
+  background: rgba(19, 223, 223, 0.3);
 }
 .ull{
-  border: solid;
+  background: rgba(230, 17, 134, 0.5);
+  color: rgb(244, 244, 245);
     padding: 10px 113px;
 }
 #prohi{

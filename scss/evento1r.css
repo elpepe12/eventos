@@ -1,5 +1,8 @@
 /* menu */
-
+*{
+  background-image: url(../imagenes/1r.gif);
+  background-size: cover;
+}
 
 body { 
   background: #ccc;

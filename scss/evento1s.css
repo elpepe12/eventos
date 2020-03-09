@@ -1,8 +1,12 @@
+
 /* menu */
-
-
+ *{
+  background-image: url(../imagenes/1s.gif);
+  background-size: cover;
+}
+ 
 body { 
-  background: #ccc;
+  /* background: #ccc; */
   font-family: helvetica, arial, serif;
   font-size: 13px;
   text-transform: uppercase;
@@ -211,10 +215,11 @@ ul.primary li:hover > a{
   margin: 22px 0px;
 }
 .ubicacion:hover{
-  color: rgb(8, 8, 8);
+  color: rgb(253, 249, 249);
   background-color: rgb(255, 8, 0);
   }
 .ubicacion{
+  color: rgb(235, 20, 20);
   border-radius: 58px;
   border: solid;
   float: left;
@@ -234,6 +239,7 @@ ul.primary li:hover > a{
   width: 100%;
 }
 .bandas{
+  color: rgb(255, 8, 0);
   width: 40%;
   float: left;
 }
@@ -245,6 +251,7 @@ ul.primary li:hover > a{
     padding: 10px 113px;
 }
 #prohi{
+  color: rgb(255, 8, 0);
   width: 50%;
     float: right;
 }
@@ -269,12 +276,12 @@ ul.primary li:hover > a{
   background-color: gold;
   width: 49%;
   border: solid red; 
-  background: blue;
+  background: rgb(18, 202, 226);
 }
 #hora:hover{
   color: rgb(8, 8, 8);
-  background-color: rgb(255, 0, 234);
-  border: solid rgb(216, 141, 28);
+  background-color: rgb(231, 109, 53);
+  border: solid rgba(43, 31, 216, 0.76);
   }
 #hora{
   border-radius: 40px 15px;

@@ -1,8 +1,11 @@
 /* menu */
-
-
+*{
+  background-image: url(../imagenes/1s.gif);
+  background-size: cover;
+}
+ 
 body { 
-  background: rgb(216, 100, 5);
+  /* background: #ccc; */
   font-family: helvetica, arial, serif;
   font-size: 13px;
   text-transform: uppercase;
@@ -19,11 +22,11 @@ body {
 
 /* a little "umph" */
 .decor {
-  background: #6EAF8D;
-  background: -webkit-linear-gradient(left, #CDEBDB 50%, #6EAF8D 50%);
-  background: -moz-linear-gradient(left, #CDEBDB 50%, #6EAF8D 50%);
-  background: -o-linear-gradient(left, #CDEBDB 50%, #6EAF8D 50%);
-  background: linear-gradient(left, white 50%, #6EAF8D 50%);
+  background: rgb(175, 110, 110);
+  background: -webkit-linear-gradient(left, rgb(8, 8, 8) 50%, rgb(212, 28, 15) 50%);
+  background: -moz-linear-gradient(left, #CDEBDB 50%,rgb(212, 28, 15) 50%);
+  background: -o-linear-gradient(left, #CDEBDB 50%,rgb(212, 28, 15) 50%);
+  background: linear-gradient(left, white 50%,rgb(212, 28, 15) 50%);
   background-size: 50px 25%;;
   padding: 2px;
   display: block;
@@ -36,6 +39,7 @@ a {
 }
 
 ul {
+  background: rgb(0,0,0);
   list-style: none;
   position: relative;
   text-align: left;
@@ -75,6 +79,7 @@ nav {
 
 /* prime */
 ul.primary li a {
+  background: rgb(0,0,0);
   display: block;
   padding: 20px 30px;
   border-right: 1px solid #3D3D3D;
@@ -181,7 +186,8 @@ ul.primary li:hover > a{
   }
 }
 /*finaliza menu*/
-/*# sourceMappingURL=evento3s.css.map */
+
+
 /*inicia informacion especifica de evento*/
 #imagen{
   float: right;
@@ -199,18 +205,25 @@ ul.primary li:hover > a{
     width: 61%;
     color: red;
     border: solid;
-    background: black;
+    background: rgb(10, 10, 10,0.7);
     margin: 49px 0px;
     padding: 24px 19px;
 }
 #texto{
-  background: white;
+  color: white;
+  background: rgb(10, 10, 10,0.7);
   float: left;
   border-radius: 10px;
   width: 64%;
   margin: 22px 0px;
 }
+.ubicacion:hover{
+  color: rgb(253, 249, 249);
+  background-color: rgb(255, 8, 0,0.7);
+  }
 .ubicacion{
+  background: rgb(10, 10, 10,0.7);
+  color: rgb(235, 20, 20);
   border-radius: 58px;
   border: solid;
   float: left;
@@ -225,22 +238,33 @@ ul.primary li:hover > a{
   margin: -9px 25px;
 }
 .caja{
+  background: rgb(0,0,0,0.1);
   height: 357px;
   float: left;
   width: 100%;
 }
 .bandas{
+  background: rgb(0,0,0,0.1);
+  color: rgb(255, 8, 0);
   width: 40%;
   float: left;
 }
 #banda {
-  width: 32%;
+  color: white;
+  background: rgba(230, 17, 134, 0.5);
+  width: 0%;
+}
+.ull:hover{
+  background: rgba(19, 223, 223, 0.3);
 }
 .ull{
-  border: solid;
+  background: rgba(230, 17, 134, 0.5);
+  color: rgb(244, 244, 245);
     padding: 10px 113px;
 }
 #prohi{
+  background: rgb(0,0,0,0.1);
+  color: rgb(255, 8, 0);
   width: 50%;
     float: right;
 }
@@ -251,25 +275,46 @@ ul.primary li:hover > a{
   float: left;
 }
 .caja1{
+  background: rgb(0,0,0,0.1);
   height: 52px;
     float: left;
     width: 100%;
 }
+#fecha:hover{
+  color: rgb(8, 8, 8);
+  background-color: yellow;
+  border: solid rgb(31, 235, 31);
+  }
 #fecha{
-  width: 50%;
+  border-radius: 15px  91px;
+  background-color: gold;
+  width: 49%;
+  border: solid red; 
+  background: rgba(15, 185, 207, 0.6);
 }
+#hora:hover{
+  color: rgb(8, 8, 8);
+  background-color: rgb(231, 109, 53);
+  border: solid rgba(43, 31, 216, 0.76);
+  }
 #hora{
-  width: 50%;
+  border-radius: 40px 15px;
+  background-color: rgb(0, 247, 255);
+  width: 49%;
+   border: solid rgb(234, 0, 255); 
+  background: rgb(30, 255, 0,0.6);
 }
 
 .ff{
+  background: rgb(0,0,0,0.1);
   width: 100%;
   margin: 0px 243px;
   color: white;
-  background: black;
-  border: solid;
+  
 }
-.informacion{
+/* menu final de informacion*/
+.informacion {
+  background: rgb(0,0,0,0.1);
   float: left;
   font-size: 27px;
   width: 56%;
@@ -278,5 +323,6 @@ ul.primary li:hover > a{
   padding: 4px 4px;
 }
 
+/*finaliza informacion especifica de evento*/
 /*finaliza informacion especifica de evento*/
 /*# sourceMappingURL=evento1s.css.map */

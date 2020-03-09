@@ -130,7 +130,8 @@ ul.primary li:hover ul {
 
 /*mantiene el fondo de la pestaña blanco */
 ul.primary li:hover a {
-  background: rgb(59, 157, 182);
+  /*  background-image: url(../imagenes/1s.gif); */
+ background: rgb(151, 35, 103);
   color: rgb(10, 10, 10);
   text-shadow: none;
 }

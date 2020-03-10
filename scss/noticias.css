@@ -395,3 +395,21 @@ body {
   transform: translateX(-60px);
 }
 /*contenido tres fin */
+/*inicio de pie de pagina*/
+
+#fin{
+  bottom:-1036px;
+  position: absolute;
+  background: black;
+  color: blanchedalmond;
+  width: 100%;
+  text-align: center;
+  margin: -100px -9px;
+  border: solid;
+}
+.informacion{
+
+  margin: 10px 10px;
+}
+
+/*fin de pie de pagina*/

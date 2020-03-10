@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="scss/inicio.css">
+    <script src="js/inicio.js"></script>
+    <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+    <link rel="manifest" href="./messaging/manifest.json">
+
+    <!-- inicio slider -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script>
+        var current = 0;
+        var imagenes = new Array();
+
+        $(document).ready(function () {
+            var numImages = 8;
+            if (numImages <= 3) {
+                $('.right-arrow').css('display', 'none');
+                $('.left-arrow').css('display', 'none');
+            }
+
+            $('.left-arrow').on('click', function () {
+                if (current > 0) {
+                    current = current - 1;
+                } else {
+                    current = numImages - 3;
+                }
+
+                $(".carrusel").animate({ "left": -($('#product_' + current).position().left) }, 600);
+
+                return false;
+            });
+
+            $('.left-arrow').on('hover', function () {
+                $(this).css('opacity', '0.5');
+            }, function () {
+                $(this).css('opacity', '1');
+            });
+
+            $('.right-arrow').on('hover', function () {
+                $(this).css('opacity', '0.5');
+            }, function () {
+                $(this).css('opacity', '1');
+            });
+
+            $('.right-arrow').on('click', function () {
+                if (numImages > current + 3) {
+                    current = current + 1;
+                } else {
+                    current = 0;
+                }
+
+                $(".carrusel").animate({ "left": -($('#product_' + current).position().left) }, 600);
+
+                return false;
+            });
+        });
+    </script>
+    <!-- fin de slider -->
+</head>
+
+<body>
+    <!-- menu -->
+    <section>
+
+        <head>
+            <meta name="viewport" content="width=device-width">
+    </head>
+      <div class="wrap">
+          <span class="decor"></span>
+         <nav>
+             <ul class="primary">
+                  <li>
+                       <a href="index.html" >Inicio</a>
+                  </li>
+                  <li>
+                       <a href="eventosinicio.html">Eventos</a>
+                      <ul class="sub">
+                            <li><a href="categoriarock.html">Rock</a></li>
+                            <li><a href="categoriasalsa.html">Salsa</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="noticias.html">noticias</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <!-- finaliza menu -->
+    <!--inicio  slaider-->
+    <section>
+        <div id="carrusel">
+            <a href="#" class="left-arrow"><img src="imagenes/izquierda.png" /></a>
+            <a href="#" class="right-arrow"><img src="imagenes/derecha.png" /></a>
+            <div class="carrusel">
+                <div class="product" id="product_0">
+                    <img src="imagenes/defo.jpg" width="195" height="100" />
+                    <h5>deftones en concierto</h5>
+                    <p>165.000 cob</p>
+                </div>
+                <div class="product" id="product_1">
+                    <img src="imagenes/gunserose.jpg" width="195" height="100" />
+                    <h5>Guns Rose en concierto</h5>
+                    <p>100.000 cob</p>
+                </div>
+                <div class="product" id="product_2">
+                    <img src="imagenes/noticias.jpg" width="195" height="100" />
+                    <h5>Visita nuestras noticias </h5>
+                    <p>Novedades</p>
+                </div>
+                <div class="product" id="product_3">
+                    <img src="imagenes/carucel3.jpg" width="195" height="100" />
+                    <h5>Mira los eventos en vivo</h5>
+                    <p>Trasmicion en vivo</p>
+                </div>
+                <div class="product" id="product_4">
+                    <img src="imagenes/descargg.jpg" width="195" height="100" />
+                    <h5>Ruben Blandes en concierto</h5>
+                    <p>320.000 cob</p>
+                </div>
+                <div class="product" id="product_5">
+                    <img src="imagenes/carucel1.jpg" width="195" height="100" />
+                    <h5>Una mezcla brutal para bailar</h5>
+                    <p>Eventos al aire libre</p>
+                </div>
+                <div class="product" id="product_6">
+                    <img src="imagenes/descargados.jpg" width="195" height="100" />
+                    <h5>Gilberto Santa Rosa en concierto</h5>
+                    <p>165.000 cob</p>
+                </div>
+                <div class="product" id="product_7">
+                    <img src="imagenes/descargatres.jpg" width="195" height="100" />
+                    <h5>Victor Manuelle en concierto</h5>
+                    <p>100.000 cob</p>
+                </div>
+                <div class="product" id="product_8">
+                    <img src="imagenes/carucel2.jpg" width="195" height="100" />
+                    <h5>Informate sobre bandas de rock que vendran este año</h5>
+                    <p>Informacion</p>
+                </div>
+                <div class="product" id="product_9">
+                    <img src="imagenes/carucel.jpg" width="195" height="100" />
+                    <h5>Acompañanos este 22 enero </h5>
+                    <p>Parque nacional </p>
+                </div>
+                <div class="product" id="product_10">
+                    <img src="imagenes/salsa.jpg" width="195" height="100" />
+                    <h5>Disfruta nuestros eventos de salsa </h5>
+                    <p>Para que no pares de festejar</p>
+                </div>
+                <div class="product" id="product_11">
+                    <img src="imagenes/calendario.jpg" width="195" height="100" />
+                    <h5>Mira nuestro calendario de eventos</h5>
+                    <p>Animate y articipa</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- cierre slaider -->
+
+    <!-- inicio de cajas  -->
+
+    <section id="uno">
+        <div class="article">
+            <div class="title">
+                <h3>Eventos del mes</h3>
+            </div>
+            <div class="imagen">
+                <img src="imagenes/calendario.jpg" alt="">
+            </div>
+            <div class="desc">
+                conoce los ultimos eventos que tendremos este mes!!
+            </div>
+            <a class="b" href="eventosinicio.html">mirar los eventos </a>
+
+        </div>
+        <div class="article">
+            <div class="title">
+                <h3>Eventos de Rock </h3>
+            </div>
+            <div class="imagen">
+                <img src="imagenes/rock.jpg" alt="">
+            </div>
+            <div class="desc">
+                conoce los ultimos eventos que tendremos de rock!!
+            </div>
+            <a class="b" href="categoriarock.html">mirar los eventos </a>
+
+        </div>
+        <div class="article">
+            <div class="title">
+                <h3>Eventos de Salsa</h3>
+            </div>
+            <div class="imagen">
+                <img src="imagenes/salsa.jpg" alt="">
+            </div>
+            <div class="desc">
+                conoce los ultimos eventos que tendremos de salsa!!
+            </div>
+            <a class="b" href="categoriasalsa.html">mirar los eventos </a>
+
+        </div>
+        <div class="article">
+            <div class="title">
+                <h3>Noticias del dia</h3>
+            </div>
+            <div class="imagen">
+                <img src="imagenes/notici.jpg" alt="">
+            </div>
+            <div class="desc">
+                conoce todas las noticias de esta semana sobre nuestros eventos!
+            </div>
+            <a class="b" href="noticias.html">Mirar Noticias </a>
+
+        </div>
+
+    </section>
+
+    <!-- fin de cajas  -->
+
+    <!-- inicio de pie de pagina   -->
+
+    <section id="fin">
+        <div class="informacion">
+            <div>contactenos tel: 301010101</div> <br>
+            <div>ubicacion bogota d.c cra 32- diagonal a 2</div><br>
+            <div>redes sociales @eventos</div><br>
+            <div><a href="#">informacion</a> </div><br>
+            <div><a href="#">terminos y condiciones</a></div><br>
+        </div>
+    </section>
+    
+    <!-- fin de pie de pagina   -->
+
+   <!-- inicio Permisos suscripcion   -->
+
+    <main class="mdl-layout__content mdl-color--grey-100">
+      <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-grid">
+  
+        <!-- Container for the Table of content -->
+        <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-desktop">
+          <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+            <!-- div to display the generated Instance ID token 
+            <div id="token_div" style="display: none;">
+              <h4>Instance ID Token</h4>
+              <p id="token" style="word-break: break-all;"></p>
+              <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored"
+                      onclick="deleteToken()">Delete Token</button> 
+            </div>-->
+            <!-- div to display the UI to allow the request for permission to
+                 notify the user. This is shown if the app has not yet been
+                 granted permission to notify. -->
+            <div id="permission_div" style="display: none;">
+              <h4>Needs Permission</h4>
+              <p id="token"></p>
+              <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored"
+                      onclick="requestPermission()">Request Permission</button>
+            </div>
+            <!-- div to display messages received by this app. -->
+            <div id="messages"></div>
+          </div>
+        </div>
+  
+      </div>
+    </main>
+
+    <!-- fin Permisos suscripcion  -->
+
+<!-- INICIO FIREBASE-->
+<!-- These scripts are made available when the app is served or deployed on Firebase Hosting -->
+<!-- If you do not serve/host your project using Firebase Hosting see https://firebase.google.com/docs/web/setup -->
+
+<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-messaging.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyB8hBsHUDUUl16Y0EAuXoJjAPxZDpy0_go",
+    authDomain: "notifica-eventos.firebaseapp.com",
+    databaseURL: "https://notifica-eventos.firebaseio.com",
+    projectId: "notifica-eventos",
+    storageBucket: "notifica-eventos.appspot.com",
+    messagingSenderId: "284945918800",
+    appId: "1:284945918800:web:705644a1fa08173dd99a55"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+  // [START get_messaging_object]
+  // Retrieve Firebase Messaging object.
+  const messaging = firebase.messaging();
+  // [END get_messaging_object]
+  // [START set_public_vapid_key]
+  // Add the public key generated from the console here.
+  messaging.usePublicVapidKey('BEzIbginJjKMT8g7R3h6D-jRO2rCNenoU9kYMKv5i6Dz79O20he2L8mX_uCau8sC55Ob424fXSG4jPW5AwBKZLY');
+  // [END set_public_vapid_key]
+
+  // IDs of divs that display Instance ID token UI or request permission UI.
+  const tokenDivId = 'token_div';
+  const permissionDivId = 'permission_div';
+
+  // [START refresh_token]
+  // Callback fired if Instance ID token is updated.
+  messaging.onTokenRefresh(() => {
+    messaging.getToken().then((refreshedToken) => {
+      console.log('Token refreshed.');
+      // Indicate that the new Instance ID token has not yet been sent to the
+      // app server.
+      setTokenSentToServer(false);
+      // Send Instance ID token to app server.
+      sendTokenToServer(refreshedToken);
+      // [START_EXCLUDE]
+      // Display new Instance ID token and clear UI of all previous messages.
+      resetUI();
+      // [END_EXCLUDE]
+    }).catch((err) => {
+      console.log('Unable to retrieve refreshed token ', err);
+      showToken('Unable to retrieve refreshed token ', err);
+    });
+  });
+  // [END refresh_token]
+
+  // [START receive_message]
+  // Handle incoming messages. Called when:
+  // - a message is received while the app has focus
+  // - the user clicks on an app notification created by a service worker
+  //   `messaging.setBackgroundMessageHandler` handler.
+  messaging.onMessage((payload) => {
+    console.log('Message received. ', payload);
+    // [START_EXCLUDE]
+    // Update the UI to include the received message.
+    appendMessage(payload);
+    // [END_EXCLUDE]
+  });
+  // [END receive_message]
+
+  function resetUI() {
+    clearMessages();
+    showToken('loading...');
+    // [START get_token]
+    // Get Instance ID token. Initially this makes a network call, once retrieved
+    // subsequent calls to getToken will return from cache.
+    messaging.getToken().then((currentToken) => {
+      if (currentToken) {
+        sendTokenToServer(currentToken);
+        updateUIForPushEnabled(currentToken);
+      } else {
+        // Show permission request.
+        console.log('No Instance ID token available. Request permission to generate one.');
+        // Show permission UI.
+        updateUIForPushPermissionRequired();
+        setTokenSentToServer(false);
+      }
+    }).catch((err) => {
+      console.log('An error occurred while retrieving token. ', err);
+      showToken('Error retrieving Instance ID token. ', err);
+      setTokenSentToServer(false);
+    });
+    // [END get_token]
+  }
+
+
+  function showToken(currentToken) {
+    // Show token in console and UI.
+    const tokenElement = document.querySelector('#token');
+    tokenElement.textContent = currentToken;
+  }
+
+  // Send the Instance ID token your application server, so that it can:
+  // - send messages back to this app
+  // - subscribe/unsubscribe the token from topics
+  function sendTokenToServer(currentToken) {
+    if (!isTokenSentToServer()) {
+      console.log(currentToken);
+      // TODO(developer): Send the current token to your server.
+      setTokenSentToServer(true);
+    } else {
+      console.log('Token already sent to server so won\'t send it again ' +
+          'unless it changes');
+    }
+
+  }
+
+  function isTokenSentToServer() {
+    return window.localStorage.getItem('sentToServer') === '1';
+  }
+
+  function setTokenSentToServer(sent) {
+    window.localStorage.setItem('sentToServer',  sent? '1' : '0');
+  }
+
+  function showHideDiv(divId, show) {
+    const div = document.querySelector('#' + divId);
+    if (show) {
+      div.style = 'display: visible';
+    } else {
+      div.style = 'display: none';
+    }
+  }
+
+  function requestPermission() {
+    console.log('Requesting permission...');
+    // [START request_permission]
+    Notification.requestPermission().then((permission) => {
+      if (permission === 'granted') {
+        console.log('Notification permission granted.');
+        // TODO(developer): Retrieve an Instance ID token for use with FCM.
+        // [START_EXCLUDE]
+        // In many cases once an app has been granted notification permission,
+        // it should update its UI reflecting this.
+        resetUI();
+        // [END_EXCLUDE]
+      } else {
+        console.log('Unable to get permission to notify.');
+      }
+    });
+    // [END request_permission]
+  }
+
+  function deleteToken() {
+    // Delete Instance ID token.
+    // [START delete_token]
+    messaging.getToken().then((currentToken) => {
+      messaging.deleteToken(currentToken).then(() => {
+        console.log('Token deleted.');
+        setTokenSentToServer(false);
+        // [START_EXCLUDE]
+        // Once token is deleted update UI.
+        resetUI();
+        // [END_EXCLUDE]
+      }).catch((err) => {
+        console.log('Unable to delete token. ', err);
+      });
+      // [END delete_token]
+    }).catch((err) => {
+      console.log('Error retrieving Instance ID token. ', err);
+      showToken('Error retrieving Instance ID token. ', err);
+    });
+
+  }
+
+  // Add a message to the messages element.
+  function appendMessage(payload) {
+    const messagesElement = document.querySelector('#messages');
+    const dataHeaderELement = document.createElement('h5');
+    const dataElement = document.createElement('pre');
+    dataElement.style = 'overflow-x:hidden;';
+    dataHeaderELement.textContent = 'Received message:';
+    dataElement.textContent = JSON.stringify(payload, null, 2);
+    messagesElement.appendChild(dataHeaderELement);
+    messagesElement.appendChild(dataElement);
+  }
+
+  // Clear the messages element of all children.
+  function clearMessages() {
+    const messagesElement = document.querySelector('#messages');
+    while (messagesElement.hasChildNodes()) {
+      messagesElement.removeChild(messagesElement.lastChild);
+    }
+  }
+
+  function updateUIForPushEnabled(currentToken) {
+    showHideDiv(tokenDivId, true);
+    showHideDiv(permissionDivId, false);
+    showToken(currentToken);
+  }
+
+  function updateUIForPushPermissionRequired() {
+    showHideDiv(tokenDivId, false);
+    showHideDiv(permissionDivId, true);
+  }
+
+  resetUI();
+</script>
+
+</body>
+
+</html>
